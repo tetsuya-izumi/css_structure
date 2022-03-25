@@ -1,12 +1,49 @@
-.inputtext {
-    border: 1px solid #aaa;
-    border-radius: 3px;
+li {
+    list-style: none;
 }
 
-.is-error {
+.tabnav {
+    display: flex;
+}
+
+.tabnav > li {
+    border-top: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+.tabnav > li:first-child {
+    border-left: 1px solid #aaa;
+}
+
+.tabnav > li > a {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.is-active {
+    background-color: #0093FF;
+}
+
+.is-active > a {
+    pointer-events: none;
+    color: #fff;
+}
+
+.is-inputtext-error {
     border-color: #D40152;
 }
 
-.is-error::placeholder {
-    color: #D40152;
+.is-inputtext-error::placeholder {
+    color: #D40152
+}
+
+.is-tabnav-active {
+    background-color: #0093ff;
+}
+
+.is-tabnav-active > a {
+    pointer-events: none;
+    color: #fff;
 }
