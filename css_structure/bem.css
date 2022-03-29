@@ -28,3 +28,11 @@
   .el_beforeIconBtn {
     position:relative;
   }
+
+  /* 5-5 アイコン基本形 */
+
+  .before-icon::before {
+      display: inline-block;
+      margin-right: .4em;
+      color:;
+  }
