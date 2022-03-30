@@ -4,16 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="bem.css">
     <link rel="stylesheet" href="precss.css">
+    <link rel="stylesheet" href="normalize.css">
     <title>Document</title>
 </head>
 <body>
 
-  <a href="" class="before-icon-btn before-icon-btn--download">ダウンロード</a>
-  <a href="" class="el_beforeIconBtn el_beforeIconBtn__download">ダウンロード</a>
-
-  <span class="before-icon before-icon--pdf">ファイル名.pdf</span>
-
+  <div class="vertical-table">
+    <table class="vertical-table__inner">
+      <thead class="vertical-table__headers">
+        <tr class="vertical-table__header-row">
+          <th class="vertical-table__header">名前</th>
+          <th class="vertical-table__header">所属</th>
+          <th class="vertical-table__header">職種</th>
+          <th class="vertical-table__header">得意分野</th>
+        </tr>
+      </thead>
+      <tbody class="vertical-table__body">
+        <tr class="vertical-table__body-row">
+          <td class="vertical-table__text">半田 惇志</td>
+          <td class="vertical-table__text">株式会社24-7／株式会社パンセ</td>
+          <td class="vertical-table__text">テクニカルディレクター／シニアエンジニア</td>
+          <td class="vertical-table__text">CSS設計、HubSpot CMS</td>
+        </tr>
+        <tr class="vertical-table__body-row">
+          <td class="vertical-table__text">長澤 賢</td>
+          <td class="vertical-table__text">株式会社パンセ</td>
+          <td class="vertical-table__text">エンジニア</td>
+          <td class="vertical-table__text">Vue.js/Nuxt.js</td>
+        </tr>
+        <tr class="vertical-table__body-row">
+          <td class="vertical-table__text">海老江 優太</td>
+          <td class="vertical-table__text">株式会社パンセ</td>
+          <td class="vertical-table__text">エンジニア</td>
+          <td class="vertical-table__text">Adobe XD</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- /.vertical-table -->
+  
 </body>
 </html>
